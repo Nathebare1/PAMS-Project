@@ -1,3 +1,4 @@
+import java.time.LocalTime;
 
 public class PatientAppointment {
     int patientID;
@@ -14,4 +15,9 @@ public class PatientAppointment {
     public String toString() {
         return patientID + ", " + patientName + ", " + appointmentTime;
     }
+
+    public LocalTime getTime() {
+        return null;
+    }
+
 }
